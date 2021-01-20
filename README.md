@@ -1,5 +1,4 @@
-# projekt-zaliczeniowy-ak-kk
-projekt-zaliczeniowy-ak-kk created by GitHub Classroom
+
 
 | Kierunek              | Przedmiot           | Semestr | Rok akademicki |
 | :-------------------: | :-----------------: | :-----: | :------------: |
