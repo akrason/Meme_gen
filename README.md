@@ -82,7 +82,7 @@ new User:
       "email":"jakis@email.com"
     }
 
-Przy dodawaniu użykownika sprawdzana jest poprawność wprowadzanych danych - hasło musi mieć przynajmniej 8 znaków, znak specjalny, cyfrę, małą i dużą literę, e-mail *@*.*.
+Przy dodawaniu użykownika sprawdzana jest poprawność wprowadzanych danych - hasło musi mieć przynajmniej 8 znaków, znak specjalny, cyfrę, małą i dużą literę, e-mail nazwa@nazwa.*
 
 new Image:
     
