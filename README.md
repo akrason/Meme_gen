@@ -1,13 +1,16 @@
-
+# Projekt na zajęcia Inżynieria Internetu
 
 | Kierunek              | Przedmiot           | Semestr | Rok akademicki |
 | :-------------------: | :-----------------: | :-----: | :------------: |
 | Informatyka Stosowana | Inżynieria Internetu| 5       | 2020/2021      |
 
 Projekt generatora memów.
+
 Java 15+SpringBoot+Maven
 
-Baza danych:
+Baza MySQL.
+
+# Baza danych:
 - składa się z trzech tabel :
   -User
   -Image
@@ -33,7 +36,7 @@ Category:
     -category_id
     -name
  
-Funkcjonalności:
+# Funkcjonalności:
 
 GET :
 
@@ -78,7 +81,9 @@ new User:
       "password":"Odpowiedniehasło1@",
       "email":"jakis@email.com"
     }
-    
+
+Przy dodawaniu użykownika sprawdzana jest poprawność wprowadzanych danych - hasło musi mieć przynajmniej 8 znaków, znak specjalny, cyfrę, małą i dużą literę, e-mail *@*.*.
+
 new Image:
     
     {
@@ -109,5 +114,6 @@ new UserDTO :
     }
     
 
+W każdym przypadku sprawdzane jest czy dany obiekt nie znajduje się już w bazie.
 
-
+Przykładowa baza z rekordami znajduje się w katalogu src/sql.
